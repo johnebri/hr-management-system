@@ -31,7 +31,7 @@ class EmployeeController extends Controller
 
         $employee = \App\Employees::create($data);
 
-        return redirect('home');
+        return redirect('/showemployees');
     }
 }
 

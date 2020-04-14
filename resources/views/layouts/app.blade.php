@@ -66,6 +66,7 @@
                                     </form>
                                 </div>
                             </li>
+                            <li class="nav-item"><a href="/showemployees">Employees</a></li>
                         @endguest
                     </ul>
                 </div>
