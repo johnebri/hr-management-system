@@ -30,8 +30,8 @@
                                     <td>{{$employee->phone}}</td>
                                     <td>{{$employee->gender}}</td>
                                     <td>
-                                        <button class="btn btn-primary btn-sm">Edit</button>
-                                        <button class="btn btn-danger btn-sm">Delete</button>
+                                        <a class="btn btn-primary btn-sm" style="color:#fff;" href="/employees/{{$employee->id}}/edit">Edit</a>
+                                        <a class="btn btn-danger btn-sm" style="color:#fff;" href="/employees/{{$employee->id}}/delete">Delete</a>
                                     </td>
                                 </tr>
                             @endforeach                            
